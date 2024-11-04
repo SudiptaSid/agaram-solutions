@@ -1,0 +1,287 @@
+/* --------------------------------------------------------------------------------
+			Banner
+-------------------------------------------------------------------------------- */
+#cs_banner {
+	position: relative;
+	margin-top: 90px;
+}
+#cs_banner .item {
+	background-size:cover;
+	background-position:center center;
+	height:700px;
+}
+#cs_banner .caption {
+	display: table;
+	width:100%;
+	height:100%;
+}
+#cs_banner .ver_mid {
+	display: table-cell;
+	vertical-align:middle;
+	text-align: center;
+	color:#fff;
+}
+#cs_banner h1 {
+	font-size:46px;
+	letter-spacing:1px;
+	text-transform: uppercase;
+}
+#cs_banner h1 span {
+	font-size:26px;
+	line-height:1;
+	display: block;
+	font-weight:400;
+	margin-bottom:10px;
+	text-transform:initial;
+}
+#cs_banner p {
+	font-size: 22px;
+    line-height: 1;
+    margin-bottom:20px;
+}
+#cs_banner p a {
+	position: relative;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 20px;
+}
+#cs_banner p a:hover {
+	text-decoration: underline;
+}
+#cs_banner p a:after {
+	content:'';
+	width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -2px;
+}
+#cs_banner p a:last-child::after {
+	display: none;
+}
+#cs_banner .btn_blue {}
+#cs_banner .owl-nav {
+	margin: 0px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+}
+#cs_banner .owl-theme .owl-nav [class*=owl-] {
+	margin: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 0px;
+    text-align: center;
+    background-color:#fff;
+    color:#0a2d63;
+    position: absolute;
+}
+#cs_banner .owl-theme .owl-nav [class*=owl-]:hover {
+	background-color:#0a2d63;
+	color:#fff;
+}
+#cs_banner .owl-theme .owl-nav .owl-prev {
+	left:20px;
+}
+#cs_banner .owl-theme .owl-nav .owl-next {
+	right:20px;
+}
+#cs_banner .owl-theme .owl-dots {
+	position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+#cs_banner .owl-theme .owl-dots .owl-dot span {
+	margin: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+#cs_banner .owl-theme .owl-dots .owl-dot.active span, 
+#cs_banner .owl-theme .owl-dots .owl-dot:hover span {
+	background-color:#0a2d63;
+}
+/* --------------------------------------------------------------------------------
+			Welcome
+-------------------------------------------------------------------------------- */
+#cs_welcome {
+	padding:80px 0px;
+	text-align: center;
+}
+#cs_welcome .content {
+	padding: 60px;
+    /*border: 1px solid #e1e1e1;*/
+	border: 4px double #e1e1e1;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 900px;
+}
+#cs_welcome .content h1.heading1 {
+	font-size:30px;
+}
+#cs_welcome .content p {
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+			Service
+-------------------------------------------------------------------------------- */
+#cs_service {
+	padding-bottom:80px;
+}
+#cs_service .box {
+	text-align: center;
+    padding: 20px;
+    /*border: 2px solid #e1e1e1;*/
+    border:4px double #e1e1e1;
+    border-radius: 10px;
+    height:100%;
+}
+#cs_service .box.color_1 {
+	border-color: #cf2027;
+}
+#cs_service .box.color_2 {
+	border-color: #045bc1;
+}
+#cs_service .box.color_3 {
+	border-color: #f0bc5e;
+}
+#cs_service .box.color_4 {
+	border-color: #8cc153;
+}
+#cs_service .box img {
+	height: 80px;
+    width: auto;
+}
+#cs_service .box h3 {
+	font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin: 20px 0px;
+    line-height: 1;
+    color: #000;
+}
+#cs_service .box p {
+	margin-bottom:0px;
+}
+/* --------------------------------------------------------------------------------
+			Our Project
+-------------------------------------------------------------------------------- */
+#cs_project {
+	padding-bottom:80px;
+}
+#cs_project .gallery {
+	display:flex;
+	flex-wrap: wrap;
+}
+#cs_project .grids {
+	flex:0 0 33.333333%;
+	max-width:33.333333%;
+	border:4px solid #fff;
+	position: relative;
+}
+#cs_project .overlay {
+	position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align:right;
+}
+#cs_project .overlay a {
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 10px;
+}
+#cs_project .overlay a img {
+
+}
+/* --------------------------------------------------------------------------------
+			About Page
+-------------------------------------------------------------------------------- */
+#about_pg {
+
+}
+/* --------------------------------------------------------------------------------
+			Service Page
+-------------------------------------------------------------------------------- */
+#service_pg {
+	padding-bottom:80px;
+}
+#service_pg .heading1 {
+	text-align: left;
+    margin-top:30px;
+}
+#service_pg .heading1:after {
+	left:0;
+	transform:translateX(0);
+}
+#service_pg p {}
+#service_pg .img_sec {
+	box-shadow: 3px 4px 10px 0px #9c9c9c;
+	border:1px solid #9c9c9c;
+	border-radius:10px;
+	overflow:hidden;
+}
+/* --------------------------------------------------------------------------------
+			Contact Page
+-------------------------------------------------------------------------------- */
+#contact_pg {
+
+}
+#contact_pg .heading1 {
+	text-align: left;
+}
+#contact_pg .heading1:after {
+	left:0;
+	transform:translateX(0);
+}
+#contact_pg .cs_info {
+    margin-bottom:30px;
+}
+#contact_pg .cs_info:last-child {
+    margin-bottom:0px;
+}
+#contact_pg .cs_info figure {
+    margin: 0px;
+    position: relative;
+    padding-left: 50px;
+}
+#contact_pg .cs_info figure img {
+    width: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#contact_pg .cs_info figure figcaption {}
+#contact_pg .cs_info figure figcaption h5 {
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    color: #0a2d63;
+}
+#contact_pg .cs_info figure figcaption p {
+    margin-bottom:0px;
+}
+#contact_pg .cs_info figure figcaption p a {
+    display: block;
+    color: #7f7f7f;
+}
+#contact_pg .cs_info figure figcaption p a:focus,
+#contact_pg .cs_info figure figcaption p a:hover {
+    text-decoration: underline;
+}
+/* --------------------------------------------------------------------------------
+			Map
+-------------------------------------------------------------------------------- */
+#cs_map {
+	width:100%;
+	height:400px;
+	margin-bottom: -7px;
+}

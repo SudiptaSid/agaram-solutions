@@ -1,2 +1,2 @@
-# agaram-solutions
+# Agaram Solutions
  
